@@ -1,0 +1,607 @@
+{
+  "users": [
+    {
+      "name": "rohit@gmail.com",
+      "pass": "rohit",
+      "bookings": [
+        {
+          "id": "tok_1JKIjbSI1LUQLH9CnlPEGous",
+          "email": "temp@temp.com",
+          "brand": "Visa",
+          "funding": "credit"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "sam@gmail.com",
+      "pass": "rohit",
+      "bookings": [
+        {
+          "id": "tok_1JKIbdSI1LUQLH9C4UFAaXhj",
+          "email": "erwer@hamnd.com",
+          "brand": "Visa",
+          "funding": "credit"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "kar@gmail.com",
+      "pass": "rohit",
+      "bookings": [
+        {
+          "id": "tok_1JKFBxSI1LUQLH9CVBQy7pX5",
+          "email": "ere@ef.com",
+          "brand": "Visa",
+          "funding": "credit"
+        },
+        {
+          "id": "tok_1JKIljSI1LUQLH9CzwEd588h",
+          "email": "temp@tem.com",
+          "brand": "Visa",
+          "funding": "credit"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "hotels": [
+    {
+      "id": "438a7b23-8f4d-407b-b7ba-b855442df4c0",
+      "name": "Hotel Oxnard",
+      "description": "Nobis excepturi et placeat. Tempore et amet. Quae qui aliquid odio est voluptas. Et tempore non delectus quae architecto laudantium accusantium veniam. Velit aut in sit earum illo sint facere. Rem non perspiciatis non aperiam quos nemo est.",
+      "distance_to_venue": 14,
+      "rating": 2,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym",
+        "pets",
+        "pool"
+      ],
+      "images": [
+        "h1.jpg",
+        "h2.jpg",
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "34d27b4d-a592-418d-b790-dfc5acda5ba2",
+          "name": "King",
+          "description": "Fugiat corrupti voluptas ea exercitationem fugit. Blanditiis suscipit sunt sit rerum ut temporibus rerum. Eius optio et tenetur officiis amet.",
+          "max_occupancy": 1,
+          "rating": 5,
+          "price_in_usd": 237,
+          "available": true
+        },
+        {
+          "id": "2ec2a0f1-8fe4-4083-bf48-2e5e87242347",
+          "name": "Twin",
+          "description": "Porro vel quasi sint asperiores veniam. Aut incidunt autem deleniti quo numquam doloribus doloribus sunt. Harum eligendi iste ducimus. Dolorem distinctio atque qui eaque voluptate et. Voluptas eum accusamus occaecati architecto nihil. Laborum officia sunt aut ut tempore placeat.",
+          "max_occupancy": 1,
+          "rating": 2,
+          "price_in_usd": 27,
+          "available": true
+        },
+        {
+          "id": "b6451dc5-3fa2-4c4b-8192-3d02682456b7",
+          "name": "Studio",
+          "description": "Earum libero maiores odit. Accusantium aut et eveniet nemo. Eius est voluptas autem facilis natus mollitia. Et officia molestias suscipit nam impedit. Eum commodi facere explicabo assumenda rerum at est at.",
+          "max_occupancy": 2,
+          "rating": 1,
+          "price_in_usd": 91,
+          "available": false
+        },
+        {
+          "id": "17069484-609d-48c0-be6e-a4f8bd738ee4",
+          "name": "Executive Suite",
+          "description": "Vel reiciendis perspiciatis dolorem facere dolores quidem qui. Corrupti eum vel repellat inventore sed voluptates. Sed consequuntur enim qui earum consequatur. Vero corrupti aut fugit corrupti reprehenderit. Harum magnam accusantium ipsa nesciunt doloribus. Sunt eaque voluptatem neque voluptate.",
+          "max_occupancy": 2,
+          "rating": 4,
+          "price_in_usd": 188,
+          "available": true
+        },
+        {
+          "id": "87bddda7-1c04-43a4-bf58-06ef2187f2da",
+          "name": "Mini Suite",
+          "description": "Laboriosam ut vel blanditiis ab quia vel fugiat. Perspiciatis quo fugit occaecati recusandae. Nisi eum accusantium doloremque facilis. Sed deleniti tempore qui non corporis. Officia iste blanditiis mollitia aut consequuntur sit.",
+          "max_occupancy": 3,
+          "rating": 5,
+          "price_in_usd": 270,
+          "available": false
+        },
+        {
+          "id": "c408d231-b474-40e3-a90b-f2bdfb862720",
+          "name": "Cabana",
+          "description": "Dignissimos consequatur at illo qui. Iste dolores expedita quae eum dicta. Illo corporis distinctio adipisci error atque omnis. Dolores enim omnis nostrum.",
+          "max_occupancy": 3,
+          "rating": 5,
+          "price_in_usd": 154,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "ba65dd8c-4e62-447e-b1cd-30d811487f7a",
+      "name": "Hotel Auburn",
+      "description": "Quis excepturi voluptas voluptatem aliquam qui itaque natus excepturi. Quo vero quod quasi ex laborum quisquam maxime. Rem non laborum cumque.",
+      "distance_to_venue": 13,
+      "rating": 1,
+      "price_category": "high",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym"
+      ],
+      "images": [
+        "h1.jpg",
+        "h2.jpg",
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "98f1f2ac-da2b-48ae-9ae8-f6901d3c72ee",
+          "name": "Studio",
+          "description": "Qui labore magni numquam illo quia. Vitae illo velit dolorum animi sed doloribus rerum. Non vel quod ducimus aut pariatur quo non perspiciatis dolor. Porro omnis qui quibusdam et.",
+          "max_occupancy": 4,
+          "rating": 4,
+          "price_in_usd": 67,
+          "available": true
+        },
+        {
+          "id": "cdc4624c-2e66-43d3-ae96-178d0fb5d9cf",
+          "name": "Executive Suite",
+          "description": "Et quam similique rem sit. Voluptatem repudiandae fuga sed. Minima eveniet est qui explicabo provident. Et autem voluptas ea ipsam. Rerum inventore magni voluptatem rerum rerum quis.",
+          "max_occupancy": 3,
+          "rating": 5,
+          "price_in_usd": 193,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "0edf77fc-d54b-4b1f-94bc-35bf27a21135",
+      "name": "Hotel Homestead",
+      "description": "Sequi labore dolorum voluptatem unde dolor quasi dignissimos blanditiis ipsa. Et praesentium et et ea. Natus aliquam ut et voluptas.",
+      "distance_to_venue": 37,
+      "rating": 3,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym"
+      ],
+      "images": [
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "6725816b-1d22-43a6-8fca-59f05eef513b",
+          "name": "King",
+          "description": "Et quas adipisci accusamus optio. Nemo a debitis asperiores neque quas vitae quo. Hic illum et. Rem repellendus quae praesentium provident ad ut. Eum quam at alias necessitatibus aut eos vero.",
+          "max_occupancy": 1,
+          "rating": 3,
+          "price_in_usd": 9,
+          "available": true
+        },
+        {
+          "id": "dd374bd4-5189-49ff-a9f6-783530234c2c",
+          "name": "Twin",
+          "description": "Aspernatur amet minima vel cupiditate illo optio. Recusandae necessitatibus assumenda quidem molestiae. Quis eligendi totam ab. Non et eveniet voluptas rerum numquam magnam. Et suscipit animi fuga consequatur. Quo quia ut rem temporibus harum assumenda velit.",
+          "max_occupancy": 1,
+          "rating": 3,
+          "price_in_usd": 265,
+          "available": true
+        },
+        {
+          "id": "523e189d-196c-4462-9a56-ba08f3a71fef",
+          "name": "Studio",
+          "description": "Laudantium quasi velit consequatur et. Voluptate quia aspernatur. Ullam minima totam at libero ullam. Natus voluptates inventore autem rerum natus praesentium id placeat vitae.",
+          "max_occupancy": 4,
+          "rating": 2,
+          "price_in_usd": 130,
+          "available": false
+        },
+        {
+          "id": "3af89847-06b4-4006-b3e4-ebbed1a2224a",
+          "name": "Executive Suite",
+          "description": "Provident cumque sed est esse eius. Et esse at voluptas est sequi qui nulla nihil accusamus. Sunt et laborum id autem rerum.",
+          "max_occupancy": 3,
+          "rating": 3,
+          "price_in_usd": 90,
+          "available": true
+        },
+        {
+          "id": "62dd260e-1981-4e79-bc3a-aa2a84b362f6",
+          "name": "Mini Suite",
+          "description": "Adipisci ut eos omnis similique velit perferendis excepturi. Sed est eum ratione doloremque qui reprehenderit sunt. Ipsum dolor fugit magni in et. Sapiente repudiandae quia cumque eum voluptatem sed. Magni ducimus eius veniam iusto.",
+          "max_occupancy": 4,
+          "rating": 3,
+          "price_in_usd": 228,
+          "available": true
+        },
+        {
+          "id": "7781d8eb-0006-4026-8c5b-47a96644b601",
+          "name": "Cabana",
+          "description": "Nam qui quas quisquam. Qui blanditiis quia optio est iure magni. Tempore et beatae delectus.",
+          "max_occupancy": 3,
+          "rating": 2,
+          "price_in_usd": 195,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "b3fdb659-22e6-4b22-a6dc-f6b7bd9e2ac3",
+      "name": "Hotel Youngstown",
+      "description": "At vitae iusto mollitia quo consequatur id. Unde mollitia id nisi et. Est repellat neque repudiandae exercitationem alias quos. Eveniet voluptatem aperiam necessitatibus consequatur quod. Iure consectetur distinctio sint harum cumque magnam quisquam consequatur. Veritatis rerum sit aut vel rerum corrupti.",
+      "distance_to_venue": 1,
+      "rating": 5,
+      "price_category": "high",
+      "amenities": [
+        "free_parking"
+      ],
+      "images": [
+        "h2.jpg",
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "cb0610cf-9fc4-497c-9a57-4b9384f38542",
+          "name": "Studio",
+          "description": "Porro in a vero. Consectetur laudantium consectetur sit qui. Alias molestiae qui.",
+          "max_occupancy": 4,
+          "rating": 1,
+          "price_in_usd": 3,
+          "available": true
+        },
+        {
+          "id": "2c9f03e6-f956-4b80-b5ba-9a242ae78cf2",
+          "name": "Executive Suite",
+          "description": "Quis mollitia tempore. Quis ut et dolorem necessitatibus. Nemo maxime nam laudantium quia sed et adipisci et ut.",
+          "max_occupancy": 4,
+          "rating": 5,
+          "price_in_usd": 255,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "9b14b96c-3d47-4663-8728-62f0eb8824f3",
+      "name": "Hotel Alhambra",
+      "description": "Deserunt ut quia esse assumenda distinctio quia aut. Sint magni architecto eum accusamus quidem in aut aut id. Quia veniam nulla blanditiis adipisci dolorum reiciendis. Voluptatem voluptatem animi atque laboriosam. Culpa rerum velit repellat eveniet vitae assumenda unde ut doloribus.",
+      "distance_to_venue": 29,
+      "rating": 2,
+      "price_category": "low",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym",
+        "pets",
+        "pool",
+        "restaurant"
+      ],
+      "images": [
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg",
+        "h9.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "7219c879-9b42-46b9-af25-a69cc4e066c8",
+          "name": "Twin",
+          "description": "Aspernatur et sed deserunt. Ut dolor blanditiis placeat est officiis quae accusantium sint quos. Nisi consequuntur et debitis rerum voluptas eum. Ut est illo enim sit. Eum nihil qui in. Nihil ea eveniet quam non saepe quam ea.",
+          "max_occupancy": 4,
+          "rating": 5,
+          "price_in_usd": 287,
+          "available": true
+        },
+        {
+          "id": "3d3653a6-4646-470e-95d6-5a4b4f02964f",
+          "name": "Studio",
+          "description": "Suscipit qui quas vel facere itaque. Quisquam dolorem sunt numquam. Nihil eos omnis adipisci recusandae ratione.",
+          "max_occupancy": 2,
+          "rating": 2,
+          "price_in_usd": 32,
+          "available": true
+        },
+        {
+          "id": "e5184640-fdc2-4852-b55e-7095d80f4c58",
+          "name": "Executive Suite",
+          "description": "Eos tempora autem rem et necessitatibus rerum reprehenderit et. Architecto ipsam provident esse consequatur veniam atque cum. Cumque magni ut et quae porro. Suscipit nam occaecati provident voluptate omnis quod aperiam repellat labore. Eaque et consequatur modi ducimus.",
+          "max_occupancy": 3,
+          "rating": 2,
+          "price_in_usd": 77,
+          "available": true
+        },
+        {
+          "id": "6ea3590c-2fc2-4f97-b9fd-3770ff7bab1c",
+          "name": "Mini Suite",
+          "description": "Sed consectetur neque impedit unde totam vel assumenda sapiente. Eveniet rerum consequatur veritatis accusantium non voluptatem non. Vel et tempore. Aut repellat impedit aspernatur non distinctio quia velit commodi.",
+          "max_occupancy": 2,
+          "rating": 1,
+          "price_in_usd": 297,
+          "available": true
+        },
+        {
+          "id": "d55e43ea-e30c-4ac7-b9b2-571ce6dff41a",
+          "name": "Cabana",
+          "description": "Nulla praesentium deserunt fugiat cumque eos culpa in. Sint libero beatae quaerat quod earum. Rem consequuntur qui dicta perferendis facilis. Eum iure autem quia qui et aut recusandae est eaque. Sed molestiae aperiam aut quis.",
+          "max_occupancy": 3,
+          "rating": 5,
+          "price_in_usd": 35,
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "2a0e77b4-f31c-43c1-b559-445dacb1f1a7",
+      "name": "Hotel Revere",
+      "description": "Laudantium et cumque voluptatem itaque ex aliquam vitae. Mollitia voluptas blanditiis soluta ex. Et culpa voluptatum animi. Repellendus ex inventore laudantium et veritatis error aut expedita.",
+      "distance_to_venue": 39,
+      "rating": 4,
+      "price_category": "low",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym",
+        "pets"
+      ],
+      "images": [
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg",
+        "h9.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "8281a1bc-ede9-426a-986f-c5de721e30e8",
+          "name": "Studio",
+          "description": "Doloremque reprehenderit quia vero et esse aut corrupti. Ipsa natus dolore voluptas qui. Enim pariatur nihil.",
+          "max_occupancy": 4,
+          "rating": 3,
+          "price_in_usd": 298,
+          "available": true
+        },
+        {
+          "id": "7320282e-d027-476d-a54e-ffe24b77b85a",
+          "name": "Executive Suite",
+          "description": "Quia quisquam sunt non. Velit consequatur quo ut et laborum. Delectus eos dolorum numquam dignissimos labore laboriosam dignissimos recusandae fuga. Excepturi laudantium et et occaecati. Ratione et repudiandae est tenetur corporis sit. Aut vel aliquid.",
+          "max_occupancy": 2,
+          "rating": 3,
+          "price_in_usd": 272,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "82c48508-2cf8-4311-b8a6-a30a6985141e",
+      "name": "Hotel Cutler Bay",
+      "description": "Ex reiciendis nostrum accusamus repudiandae sint placeat alias. Dolor perferendis sapiente atque quisquam laudantium alias. Iste incidunt et eos aut expedita in. Maxime voluptate pariatur.",
+      "distance_to_venue": 40,
+      "rating": 3,
+      "price_category": "low",
+      "amenities": [
+        "free_parking"
+      ],
+      "images": [
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg",
+        "h9.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "78423278-d631-4b14-8111-a545226d5f56",
+          "name": "Twin",
+          "description": "Et atque quo ab consectetur rerum et. Et omnis dolorem. Tempore nostrum quod cum molestiae voluptatibus. Repellat incidunt nam et. Molestiae tempora necessitatibus non est omnis omnis praesentium minima blanditiis.",
+          "max_occupancy": 1,
+          "rating": 5,
+          "price_in_usd": 288,
+          "available": false
+        },
+        {
+          "id": "539ec603-40a1-4c69-9c79-ca9eb9c21064",
+          "name": "Studio",
+          "description": "Illum facere dolore porro id at sed facilis. Dolores officiis suscipit quibusdam ex. Repellendus voluptatibus modi. Dolorem non commodi ipsam incidunt tempore quisquam. Error ullam esse nihil quia voluptates.",
+          "max_occupancy": 4,
+          "rating": 4,
+          "price_in_usd": 21,
+          "available": true
+        },
+        {
+          "id": "2caba28f-5e45-4232-a30e-266fc2dd442e",
+          "name": "Executive Suite",
+          "description": "Qui culpa quaerat quam culpa sunt qui. Aut ipsa ut sequi aliquid at. Ut vero sit a quia molestiae maxime quia natus vel.",
+          "max_occupancy": 3,
+          "rating": 5,
+          "price_in_usd": 229,
+          "available": true
+        },
+        {
+          "id": "8e5ae0e3-d1aa-4be1-aec7-86920afc1bed",
+          "name": "Mini Suite",
+          "description": "Blanditiis accusamus ea ut harum praesentium accusantium dolores. Et est qui quae repellat voluptas. Officiis qui hic quibusdam cupiditate sit. In cupiditate quia expedita perferendis quos.",
+          "max_occupancy": 3,
+          "rating": 2,
+          "price_in_usd": 263,
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "64f9e192-f47e-40db-93cf-0d4eb9f7a103",
+      "name": "Hotel Lakewood",
+      "description": "Incidunt sequi provident non perferendis distinctio tempore aut eum. Ab voluptas eligendi omnis asperiores laborum repellat officiis earum ex. Quae animi magnam nulla.",
+      "distance_to_venue": 33,
+      "rating": 1,
+      "price_category": "high",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "h3.jpg",
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "468f0127-bf4e-476a-add4-4359f9b410cf",
+          "name": "Studio",
+          "description": "Maxime deleniti non tempora alias minima. Repellat provident ut tempore quia occaecati. Debitis sit voluptatem qui aperiam eos voluptatem molestiae. Velit et magnam eaque aut qui ipsum. Veritatis odio inventore voluptas voluptas explicabo.",
+          "max_occupancy": 2,
+          "rating": 4,
+          "price_in_usd": 280,
+          "available": true
+        },
+        {
+          "id": "21aa7955-a2e7-407b-b58a-a117e95029c3",
+          "name": "Executive Suite",
+          "description": "Rerum dolorum pariatur expedita vitae eaque eum at. Maxime commodi rerum et illum magnam. Nihil consequatur ducimus.",
+          "max_occupancy": 4,
+          "rating": 2,
+          "price_in_usd": 24,
+          "available": false
+        },
+        {
+          "id": "d67622ec-5eec-4a82-97dd-1bf49f93fde6",
+          "name": "Mini Suite",
+          "description": "Cum nihil officiis porro quas consequatur qui in est. Modi debitis ipsum. Doloremque dolorem dolore est aut occaecati ipsa fuga quia quia.",
+          "max_occupancy": 2,
+          "rating": 2,
+          "price_in_usd": 123,
+          "available": true
+        },
+        {
+          "id": "7d0ab572-eb69-4ad1-a4a3-a4fbc6bbcdc0",
+          "name": "Cabana",
+          "description": "Et eos fuga esse. Aut distinctio totam magni cupiditate temporibus et mollitia. Dolorem consequatur dolore reiciendis perspiciatis veniam voluptates.",
+          "max_occupancy": 4,
+          "rating": 1,
+          "price_in_usd": 1,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "ee809111-81dd-4ef7-8385-5708ed6be9bc",
+      "name": "Hotel Brentwood",
+      "description": "Rerum placeat aut voluptatem excepturi debitis. Qui vel veritatis nam aliquid ea ullam doloribus sequi temporibus. Sed qui iusto nulla. Unde veniam explicabo dolor expedita quis omnis. Sunt voluptas dicta voluptatem. Nam sequi et.",
+      "distance_to_venue": 20,
+      "rating": 3,
+      "price_category": "high",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym",
+        "pets",
+        "pool",
+        "restaurant"
+      ],
+      "images": [
+        "h4.jpg",
+        "h5.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "a16ee772-2d04-45c7-86de-0014326a2953",
+          "name": "Studio",
+          "description": "Sint incidunt repellat. Quidem sed est neque sit aliquid eligendi eveniet doloremque nisi. Nesciunt aspernatur aperiam dolorum consequatur et nobis nisi.",
+          "max_occupancy": 1,
+          "rating": 1,
+          "price_in_usd": 189,
+          "available": false
+        },
+        {
+          "id": "feef815b-c0db-4bf5-bd08-e2116f877347",
+          "name": "Executive Suite",
+          "description": "Debitis consequuntur incidunt odio a officia inventore. Et perspiciatis dolores tenetur beatae distinctio. Corrupti non totam itaque unde et tempora. Ea quia velit est quos aut. Est cumque aperiam totam nam.",
+          "max_occupancy": 2,
+          "rating": 1,
+          "price_in_usd": 92,
+          "available": false
+        },
+        {
+          "id": "a30156be-e1d6-46a1-9bca-ac5f109d1a54",
+          "name": "Mini Suite",
+          "description": "Ducimus eveniet in consequatur odio eaque dolor delectus. Enim quasi porro mollitia. Qui sed repudiandae. Voluptatem eligendi quia delectus. Molestias at sit sunt odio soluta velit ut aut.",
+          "max_occupancy": 2,
+          "rating": 2,
+          "price_in_usd": 5,
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "2b44a7c8-9af9-4b96-bea7-8223565db9dd",
+      "name": "Hotel Palm Harbor",
+      "description": "Ratione itaque molestias in doloremque voluptate soluta. Beatae voluptatem est consequatur tempore quibusdam debitis quasi quis quasi. Dolorem sint eius. Eaque qui enim qui. Repellendus sit quod nostrum voluptas molestiae. Dolorem cupiditate aut totam.",
+      "distance_to_venue": 20,
+      "rating": 3,
+      "price_category": "low",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "gym",
+        "pets"
+      ],
+      "images": [
+        "h4.jpg",
+        "h5.jpg",
+        "h6.jpg",
+        "h7.jpg",
+        "h8.jpg"
+      ],
+      "rooms": [
+        {
+          "id": "67d10253-e2a7-470e-a985-295e766931e9",
+          "name": "Twin",
+          "description": "Distinctio quidem dolorem est et optio nam iste. Repellendus praesentium dolor consequuntur nostrum quas. Non qui laborum fugiat fugiat aut. Iusto et labore suscipit numquam.",
+          "max_occupancy": 1,
+          "rating": 4,
+          "price_in_usd": 207,
+          "available": true
+        },
+        {
+          "id": "0382e880-24b3-47ca-a23a-6d2c10339b5f",
+          "name": "Studio",
+          "description": "Et culpa odit ducimus unde recusandae reprehenderit sed doloribus totam. Quae fugiat aut. Sed corporis nulla. Praesentium incidunt consequatur similique tempore quis et officiis minima. Iste qui vel quo est quibusdam modi.",
+          "max_occupancy": 2,
+          "rating": 1,
+          "price_in_usd": 264,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

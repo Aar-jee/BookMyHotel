@@ -1,0 +1,6 @@
+{
+    "login": "http://localhost:8001/users",
+    "signup": "http://localhost:8001/users",
+    "hotels": "http://localhost:8001/hotels",
+    "stripeKey": "pk_test_51JK8yzSI1LUQLH9CoXumtgsEXq89wz1DLEiKeKFshuL61NIECi43wlVCoFIKE97UiozZCSXok0InkmzHgg6ix1KY00tzMAH76B"
+}

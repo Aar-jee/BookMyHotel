@@ -1,0 +1,17 @@
+.filterHead { 
+    padding: 0vh 15px 10px 15px;
+    font-size: larger;
+    font-weight: bold;
+ }
+.filterDistance { 
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 10px darkgray;
+ }
+.filterAmenities { 
+    padding: 15px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px darkgray;
+}

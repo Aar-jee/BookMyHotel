@@ -1,0 +1,164 @@
+body {
+  font-size: 15px;
+}
+.page-wrapper {
+  font-family: 'Lato', sans-serif;
+}
+.page-wrapper .logo_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-wrapper .cont {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.page-wrapper .home_section {
+  background-color: #56ab70;
+  min-height: 100vh;
+  background-image: url("https://www.techadvisor.com/cmsdata/slideshow/3701796/best-hotel-booking-sites-main_thumb800.png");
+  background-size: cover;
+}
+.page-wrapper .home_section .imgwrapper {
+  background: transparent;
+  opacity: 0.9;
+  min-height: 100vh;
+}
+.page-wrapper .footer_section {
+  padding: 22px 0;
+  padding-bottom: 0;
+}
+.footer_white{
+  background: white;
+}
+.page-wrapper .footer_section .footer-wrapper .footer-logo {
+  text-align: center;
+}
+.page-wrapper .footer_section .footer-wrapper .footer-logo img {
+  height: 100px;
+}
+.page-wrapper .footer_section .footer-wrapper .footer-heading {
+  color: #3f3f3f;
+  font-size: 18px;
+  font-weight: 600;
+}
+.page-wrapper .footer_section .footer-wrapper .footer-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.page-wrapper .footer_section .footer-wrapper .footer-list li {
+  padding-bottom: 15px;
+}
+.page-wrapper .footer_section .footer-wrapper .social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-wrapper .footer_section .footer-wrapper .social-media i {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.page-wrapper .footer_section .footer-wrapper .social-media .fa-facebook-f {
+  color: #fff;
+  background-color: #4267b2;
+}
+.page-wrapper .footer_section .footer-wrapper .social-media .fa-linkedin-in {
+  color: #fff;
+  background-color: #0077B5;
+}
+.page-wrapper .footer_section .footer-wrapper .social-media .fa-youtube {
+  color: #fff;
+  background-color: #ED3833;
+}
+.fa-calendar-alt {
+  color: black;
+  background-color: #0077B5;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.page-wrapper .footer_section .footer-wrapper .address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-wrapper .footer_section .footer-wrapper .footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-wrapper .bottom-section {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.page-wrapper .bottom-section p {
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+.page-wrapper .duration-wrapper .date-calender input {
+  height: auto;
+  line-height: 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: none;
+  max-width: 100px;
+  margin-left: 15px;
+}
+.page-wrapper .duration-wrapper .date-calender i {
+  /* position: absolute; */
+  bottom: 10px;
+  right: 20px;
+  top: 0;
+  cursor: pointer;
+  color: #ff7e00;
+  line-height: 50px;
+  height: 50px;
+}
+.page-wrapper .duration-wrapper .duration-wrapper {
+  background: #fafafa;
+  padding: 10px 0;
+  border-radius: 20px;
+  margin: 20px 50px;
+}
+.page-wrapper .duration-wrapper .duration-wrapper .react-datepicker-popper {
+  z-index: 100;
+}
+span {
+  position: relative;
+  top: -2px;
+  display: block;
+  font-weight: bold;
+}
+
+.dateContainer {
+  width: auto;
+  top: 50%;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  background: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid rgb(228, 231, 228);
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.page-wrapper .duration-wrapper .date-calender {
+  position: relative;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  margin: 30px auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
