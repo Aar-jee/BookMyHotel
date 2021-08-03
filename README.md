@@ -21,7 +21,7 @@
   
 -------------------------------------------------------------------------------------------------------
 
-Steps to create fake data using Faker and to run json server on port 8001
+# Steps to create fake data using Faker and to run json server on port 8001
 
 1. Make sure you have node js and npm installed
 
